@@ -20,6 +20,7 @@
             if(formBody) {
                 formBodyPos = formBody.getPosition;
                 formHeight = formBody.getHeight();
+                console.log(formHeight);
                 tt = formBodyPos.y + 49;
                 pos = formBody.getPosition().y + formBody.getHeight();
 
